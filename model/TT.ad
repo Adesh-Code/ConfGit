@@ -11,7 +11,49 @@
       <spreadsheet xmi:type="ad:Expression" xmi:id="__EJkgfgBEe-RNsC2VFQ87Q"/>
     </nodes>
     <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_2xnw0PgFEe-RNsC2VFQ87Q" name="Business Activity Node 2" controlFlowsIn="__okgMPgBEe-RNsC2VFQ87Q" controlFlowsOut="_3mXngPgFEe-RNsC2VFQ87Q">
+      <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_pw_WoPgGEe-RNsC2VFQ87Q" name="asd" qmlId="qml95cf8ce5e4c1454393dd189b8238537a">
+        <type xmi:type="ad:CustomTypeRef" xmi:id="_pw_WofgGEe-RNsC2VFQ87Q" idRef="String"/>
+      </potentiallyDeletedFields>
+      <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_p-PvgPgGEe-RNsC2VFQ87Q" name="n" qmlId="qml901e93ab32b44316bfc0725ae2d19f39">
+        <type xmi:type="ad:CustomTypeRef" xmi:id="_p-PvgfgGEe-RNsC2VFQ87Q" idRef="String"/>
+      </potentiallyDeletedFields>
+      <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_qJt_sPgGEe-RNsC2VFQ87Q" name="ss" qmlId="qmla8d557fdbbca4b27920d5f5af0e0d192">
+        <type xmi:type="ad:CustomTypeRef" xmi:id="_qJt_sfgGEe-RNsC2VFQ87Q" idRef="String"/>
+      </potentiallyDeletedFields>
+      <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_qUly8PgGEe-RNsC2VFQ87Q" name="q" qmlId="qmld47aebdd046948659ab9d03c0f923e9b" kind="Output">
+        <type xmi:type="ad:CustomTypeRef" xmi:id="_qUly8fgGEe-RNsC2VFQ87Q" idRef="String"/>
+      </potentiallyDeletedFields>
+      <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_qlIwYPgGEe-RNsC2VFQ87Q" name="aa" qmlId="qml5f8b6c5a7cc54a3a9c1ec3c98c9ab988" kind="Output">
+        <type xmi:type="ad:CustomTypeRef" xmi:id="_qlIwYfgGEe-RNsC2VFQ87Q" idRef="String"/>
+      </potentiallyDeletedFields>
       <combinatorialStrength xmi:type="ad:Expression" xmi:id="_2xnw0fgFEe-RNsC2VFQ87Q"/>
+      <rows xmi:type="ad:BusinessRow" xmi:id="_pVH6APgGEe-RNsC2VFQ87Q">
+        <cells xmi:type="ad:BusinessCell" xmi:id="_pw_WovgGEe-RNsC2VFQ87Q" key="_pw_WoPgGEe-RNsC2VFQ87Q">
+          <value xmi:type="ad:Expression" xmi:id="_pw_Wo_gGEe-RNsC2VFQ87Q">
+            <clause xmi:type="ad:StringLiteralClause" xmi:id="_rMxYIPgGEe-RNsC2VFQ87Q" value="1"/>
+          </value>
+        </cells>
+        <cells xmi:type="ad:BusinessCell" xmi:id="_p-PvgvgGEe-RNsC2VFQ87Q" key="_p-PvgPgGEe-RNsC2VFQ87Q">
+          <value xmi:type="ad:Expression" xmi:id="_p-Pvg_gGEe-RNsC2VFQ87Q">
+            <clause xmi:type="ad:StringLiteralClause" xmi:id="_rV3CsPgGEe-RNsC2VFQ87Q" value="2"/>
+          </value>
+        </cells>
+        <cells xmi:type="ad:BusinessCell" xmi:id="_qJt_svgGEe-RNsC2VFQ87Q" key="_qJt_sPgGEe-RNsC2VFQ87Q">
+          <value xmi:type="ad:Expression" xmi:id="_qJt_s_gGEe-RNsC2VFQ87Q">
+            <clause xmi:type="ad:StringLiteralClause" xmi:id="_rk6LUPgGEe-RNsC2VFQ87Q" value="2"/>
+          </value>
+        </cells>
+        <cells xmi:type="ad:BusinessCell" xmi:id="_qUly8vgGEe-RNsC2VFQ87Q" key="_qUly8PgGEe-RNsC2VFQ87Q">
+          <value xmi:type="ad:Expression" xmi:id="_qUly8_gGEe-RNsC2VFQ87Q">
+            <clause xmi:type="ad:StringLiteralClause" xmi:id="_rulrwPgGEe-RNsC2VFQ87Q" value="2"/>
+          </value>
+        </cells>
+        <cells xmi:type="ad:BusinessCell" xmi:id="_qlIwYvgGEe-RNsC2VFQ87Q" key="_qlIwYPgGEe-RNsC2VFQ87Q">
+          <value xmi:type="ad:Expression" xmi:id="_qlIwY_gGEe-RNsC2VFQ87Q">
+            <clause xmi:type="ad:StringLiteralClause" xmi:id="_r72rsPgGEe-RNsC2VFQ87Q" value="2"/>
+          </value>
+        </cells>
+      </rows>
       <spreadsheet xmi:type="ad:Expression" xmi:id="_2xnw0vgFEe-RNsC2VFQ87Q"/>
     </nodes>
   </ad:ActivityDiagram>
@@ -36,7 +78,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_2xnw1_gFEe-RNsC2VFQ87Q" type="5021"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_2xnw1PgFEe-RNsC2VFQ87Q"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_2xnw1fgFEe-RNsC2VFQ87Q" fontName="Segoe UI"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2xnw1vgFEe-RNsC2VFQ87Q" x="308" y="201"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2xnw1vgFEe-RNsC2VFQ87Q" x="255" y="300"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_9-iAQPgBEe-RNsC2VFQ87Q"/>
     <edges xmi:type="notation:Edge" xmi:id="__SzrkPgBEe-RNsC2VFQ87Q" type="4001" element="__SydcPgBEe-RNsC2VFQ87Q" source="_-t610PgBEe-RNsC2VFQ87Q" target="__EKLkPgBEe-RNsC2VFQ87Q">
