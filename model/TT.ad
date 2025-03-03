@@ -2,18 +2,23 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/21/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <ad:ActivityDiagram xmi:id="_9-dHwPgBEe-RNsC2VFQ87Q" type="qml1ee3255accde41c99842c8d00d6ead20">
     <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="__SydcPgBEe-RNsC2VFQ87Q" to="__EGhMPgBEe-RNsC2VFQ87Q" from="_-t5nsPgBEe-RNsC2VFQ87Q"/>
-    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="__okgMPgBEe-RNsC2VFQ87Q" to="_-aMokPgBEe-RNsC2VFQ87Q" from="__EGhMPgBEe-RNsC2VFQ87Q"/>
-    <nodes xmi:type="ad:TerminateNode" xmi:id="_-aMokPgBEe-RNsC2VFQ87Q" name="Flow Final Node 1" controlFlowsIn="__okgMPgBEe-RNsC2VFQ87Q"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="__okgMPgBEe-RNsC2VFQ87Q" to="_2xnw0PgFEe-RNsC2VFQ87Q" from="__EGhMPgBEe-RNsC2VFQ87Q"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_3mXngPgFEe-RNsC2VFQ87Q" to="_-aMokPgBEe-RNsC2VFQ87Q" from="_2xnw0PgFEe-RNsC2VFQ87Q"/>
+    <nodes xmi:type="ad:TerminateNode" xmi:id="_-aMokPgBEe-RNsC2VFQ87Q" name="Flow Final Node 1" controlFlowsIn="_3mXngPgFEe-RNsC2VFQ87Q"/>
     <nodes xmi:type="ad:InitialNode" xmi:id="_-t5nsPgBEe-RNsC2VFQ87Q" name="Initial Node" controlFlowsOut="__SydcPgBEe-RNsC2VFQ87Q"/>
     <nodes xmi:type="ad:BusinessActivityNode" xmi:id="__EGhMPgBEe-RNsC2VFQ87Q" name="Business Activity Node 1" controlFlowsIn="__SydcPgBEe-RNsC2VFQ87Q" controlFlowsOut="__okgMPgBEe-RNsC2VFQ87Q">
       <combinatorialStrength xmi:type="ad:Expression" xmi:id="__EJkgPgBEe-RNsC2VFQ87Q"/>
       <spreadsheet xmi:type="ad:Expression" xmi:id="__EJkgfgBEe-RNsC2VFQ87Q"/>
     </nodes>
+    <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_2xnw0PgFEe-RNsC2VFQ87Q" name="Business Activity Node 2" controlFlowsIn="__okgMPgBEe-RNsC2VFQ87Q" controlFlowsOut="_3mXngPgFEe-RNsC2VFQ87Q">
+      <combinatorialStrength xmi:type="ad:Expression" xmi:id="_2xnw0fgFEe-RNsC2VFQ87Q"/>
+      <spreadsheet xmi:type="ad:Expression" xmi:id="_2xnw0vgFEe-RNsC2VFQ87Q"/>
+    </nodes>
   </ad:ActivityDiagram>
   <notation:Diagram xmi:id="_9-hZMPgBEe-RNsC2VFQ87Q" type="ConformiqActivityChart" element="_9-dHwPgBEe-RNsC2VFQ87Q" name="TT.ad" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_-ab5IPgBEe-RNsC2VFQ87Q" type="2011" element="_-aMokPgBEe-RNsC2VFQ87Q" fontName="Segoe UI">
       <children xmi:type="notation:DecorationNode" xmi:id="_-ab5IvgBEe-RNsC2VFQ87Q" type="5020"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ab5IfgBEe-RNsC2VFQ87Q" x="303" y="133"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ab5IfgBEe-RNsC2VFQ87Q" x="443" y="85"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_-t610PgBEe-RNsC2VFQ87Q" type="2004" element="_-t5nsPgBEe-RNsC2VFQ87Q">
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_-t610fgBEe-RNsC2VFQ87Q"/>
@@ -27,6 +32,12 @@
       <styles xmi:type="notation:FontStyle" xmi:id="__EKLkvgBEe-RNsC2VFQ87Q" fontName="Segoe UI"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="__EKLk_gBEe-RNsC2VFQ87Q" x="200" y="65"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_2xnw0_gFEe-RNsC2VFQ87Q" type="2012" element="_2xnw0PgFEe-RNsC2VFQ87Q">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2xnw1_gFEe-RNsC2VFQ87Q" type="5021"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_2xnw1PgFEe-RNsC2VFQ87Q"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2xnw1fgFEe-RNsC2VFQ87Q" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2xnw1vgFEe-RNsC2VFQ87Q" x="308" y="201"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_9-iAQPgBEe-RNsC2VFQ87Q"/>
     <edges xmi:type="notation:Edge" xmi:id="__SzrkPgBEe-RNsC2VFQ87Q" type="4001" element="__SydcPgBEe-RNsC2VFQ87Q" source="_-t610PgBEe-RNsC2VFQ87Q" target="__EKLkPgBEe-RNsC2VFQ87Q">
       <styles xmi:type="notation:RoutingStyle" xmi:id="__SzrkfgBEe-RNsC2VFQ87Q"/>
@@ -34,11 +45,17 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__Szrk_gBEe-RNsC2VFQ87Q" points="[-1, 0, -153, 10]$[153, -40, 1, -30]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__S05sPgBEe-RNsC2VFQ87Q" id="(1.0,0.4)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="__olHQPgBEe-RNsC2VFQ87Q" type="4001" element="__okgMPgBEe-RNsC2VFQ87Q" source="__EKLkPgBEe-RNsC2VFQ87Q" target="_-ab5IPgBEe-RNsC2VFQ87Q">
+    <edges xmi:type="notation:Edge" xmi:id="__olHQPgBEe-RNsC2VFQ87Q" type="4001" element="__okgMPgBEe-RNsC2VFQ87Q" source="__EKLkPgBEe-RNsC2VFQ87Q" target="_2xnw0_gFEe-RNsC2VFQ87Q">
       <styles xmi:type="notation:RoutingStyle" xmi:id="__olHQfgBEe-RNsC2VFQ87Q"/>
       <styles xmi:type="notation:FontStyle" xmi:id="__olHQvgBEe-RNsC2VFQ87Q" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__olHQ_gBEe-RNsC2VFQ87Q" points="[0, 0, -35, -50]$[54, 56, 19, 6]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__omVYPgBEe-RNsC2VFQ87Q" id="(1.0,0.7166666666666667)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_3mXngfgFEe-RNsC2VFQ87Q" type="4001" element="_3mXngPgFEe-RNsC2VFQ87Q" source="_2xnw0_gFEe-RNsC2VFQ87Q" target="_-ab5IPgBEe-RNsC2VFQ87Q">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_3mXngvgFEe-RNsC2VFQ87Q"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3mXng_gFEe-RNsC2VFQ87Q" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3mXnhPgFEe-RNsC2VFQ87Q" points="[0, 0, -67, 129]$[66, -149, -1, -20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3mXnhfgFEe-RNsC2VFQ87Q" id="(1.0,0.6333333333333333)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
